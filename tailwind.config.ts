@@ -12,9 +12,6 @@ const config: Config = {
   theme: {
     extend: {},
   },
-  daisyui: {
-    themes: ["luxury"],
-  },
   plugins: [tp, daisyui],
 };
 export default config;
