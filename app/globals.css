@@ -7,3 +7,7 @@ main,
 body {
   height: 100%;
 }
+
+.children-right-0 > div {
+  @apply right-0;
+}
