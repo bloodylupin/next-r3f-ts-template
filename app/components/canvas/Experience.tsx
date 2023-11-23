@@ -1,10 +1,15 @@
+import { Avatar } from "./Avatar";
+import Cone from "./Cone";
+import Cylinder from "./Cylinder";
+import { Studio } from "./Studio";
+
 export default function Experience() {
   return (
     <>
-      <mesh castShadow receiveShadow>
-        <boxGeometry />
-        <meshStandardMaterial color={"orange"} />
-      </mesh>
+      <Avatar />
+      <Studio />
+      <Cone />
+      <Cylinder />
     </>
   );
 }
